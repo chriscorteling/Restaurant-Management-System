@@ -1,0 +1,45 @@
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.*
+
+# Node / React
+client/node_modules/
+client/build/
+
+# .NET
+server/bin/
+server/obj/
+
+# User-specific files
+*.user
+*.suo
+
+# Local app settings overrides / secrets
+server/appsettings.Development.json
+server/secrets.json
+
+# React env
+client/.env
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+
+# .NET additional
+server/*.db
+server/*.sqlite
+
+#server/appsettings
+server/appsettings.*.json
+!server/appsettings.json
