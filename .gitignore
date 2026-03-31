@@ -15,7 +15,7 @@
 client/node_modules/
 client/build/
 
-# .NET
+# .NET build
 server/bin/
 server/obj/
 
@@ -23,23 +23,16 @@ server/obj/
 *.user
 *.suo
 
-# Local app settings overrides / secrets
+# Secrets (IMPORTANT)
 server/appsettings.Development.json
 server/secrets.json
 
 # React env
 client/.env
 
-# Logs
-*.log
-
-# OS files
-.DS_Store
-
-# .NET additional
+# Database files
 server/*.db
 server/*.sqlite
 
-#server/appsettings
-server/appsettings.*.json
+# Keep main config
 !server/appsettings.json
